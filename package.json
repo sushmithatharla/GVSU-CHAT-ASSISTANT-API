@@ -1,0 +1,30 @@
+{
+  "name": "gvsu-chat-assistant-api",
+  "version": "1.0.0",
+  "description": "gvsu chat assistant for web",
+  "main": "index.js",
+  "engines": {
+    "node": "16.15.0",
+    "npm": "8.5.5"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "backend": "nodemon index.js",
+    "frontend": "npm run start --prefix front-end",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix front-end && npm run build --prefix front-end"
+  },
+  "author": "Sushmitha Tharla",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "cors": "^2.8.5",
+    "dialogflow": "^1.2.0",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20"
+  }
+}

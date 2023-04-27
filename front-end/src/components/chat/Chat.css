@@ -1,0 +1,28 @@
+.messages {
+    font-size: 15px;
+    color: grey;
+}
+
+.chat-container {
+    min-width: 60%;
+    align-items: flex-end;
+}
+
+#container-align {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+
+#align-chat-icon {
+    margin-right: 3%;
+}
+
+#align-chat-window {
+    justify-content: right!important;
+}
+
+#close, #arrow-left {
+    cursor: pointer;
+}
+

@@ -1,0 +1,45 @@
+.messages {
+    font-size: 15px;
+    color: grey;
+}
+
+.chat-container {
+    min-width: 60%;
+    align-items: flex-end;
+}
+
+.card-body {
+    overflow: auto;
+}
+
+#card-header-styles {
+    background-color: #0032a0 !important;
+}
+
+.send-message {
+    color: #0032a0;
+}
+
+.text-area-style {
+    border-color: transparent !important;
+}
+
+ .user, .api {
+    margin-bottom: 0 !important;
+    text-align: left;
+ }
+
+ .click-here {
+    cursor: pointer;
+ }
+
+ .chat-icon-text {
+    width: 35%;
+    font-size: 1.5rem;
+    float: right;
+    border-radius: 30px;
+    background-color: #0032a0;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+ }

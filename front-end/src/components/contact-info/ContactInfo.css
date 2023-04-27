@@ -1,0 +1,30 @@
+@import '~mdb-ui-kit/css/mdb.min.css';
+
+.contact-info-box {
+    width: 100%;
+    justify-items: center;
+}
+
+.go-back {
+    background-color: #0032a0;
+    color: white;
+    border: none;
+}
+
+.form-control {
+    border-bottom: 1px solid #bdbdbd !important;
+}
+
+.error-message {
+    color: red;
+}
+
+.confirmation-message {
+    font-size: 20px;
+    color: orangered;
+}
+
+.conatct-it {
+    color: red;
+    font-size: 25px;
+}
